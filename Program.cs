@@ -10,12 +10,12 @@ namespace ResponsiPemrograman2649
     {
         static void Main(string[] args)
         {
+            Karyawan karyawan1 = new Karyawan(1, 190302123, "Paijo", 3000000);
+            Karyawan karyawan2 = new Karyawan(2, 190302123, "Jono", 2000000);
+
             Console.Clear();
             Console.WriteLine("\nNo \tNIK / Nama \t\tGaji Bulanan");
             Console.WriteLine("---------------------------------------------");
-
-            Karyawan karyawan1 = new Karyawan(1, 190302123, "Paijo", 3000000);
-            Karyawan karyawan2 = new Karyawan(2, 190302123, "Jono", 2000000);
             karyawan1.ShowEmployeeInformation();
             karyawan2.ShowEmployeeInformation();
 
